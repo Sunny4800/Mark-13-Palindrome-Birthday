@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: #09f755;
+}
+header{
+    width: 100%;
+    background-color: rebeccapurple;
+    height: 80px;
+}
+main{
+    margin: 3rem;
+}
+label{
+    font-size: larger;
+    color: var(--primary-color);
+    width: 256px;
+}
+label p{
+    font-size: larger;
+    margin: 1.5rem;
+} 
+input{
+    font-size: 14px;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid #7c3aed;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+}
+#Checkbtn{
+    display: block;
+    background-color: #09f755;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: larger;
+    cursor: pointer;
+    margin: 3rem auto;
+}
+#Checkbtn:hover{
+    background-color: #f24406;
+}
+#output{
+    font-size: larger;
+    margin: 1rem;
+    color: #fff;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+footer p{
+    font-size: larger;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #09f755;
+}
